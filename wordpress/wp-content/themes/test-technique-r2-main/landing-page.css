@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+main {
+    background-color: white;
+}
+
+/* definition of the first section */
+#section1 {
+    display:flex; 
+}
+
+#image1 {
+    filter: brightness(70%);
+    position : relative ; 
+    width : 100% ;
+    min-height : 300px ; 
+    z-index : 1 ; 
+    object-fit: cover ; 
+}
+
+#section1-text {
+    color : white ; 
+    font-family : 'Roboto', sans-serif;
+    width : 40%;
+    position : absolute ;
+    z-index : 2 ; 
+    margin-left: 5%; 
+    margin-top: 7% ;
+    font-weight: 400;
+}
+#section1-text p {
+    white-space: break-spaces;
+}
+#section1-text span {
+    display : block ; 
+    background-color: #11E1B9;
+    height : 5px ; width : 50px ; 
+    border : 0px ;  
+}
+
+/* definition of the second section */
+#section2 {
+    background-color: #CFE6E2;
+    z-index : 1 ; 
+}
+
+#image2 {
+    position : absolute ; 
+    margin-top: -5%;
+    z-index: 2;
+    width: 40%;
+}
+
+#section2-text {
+    padding : 5% 5% 5% 30%; 
+    color : black ; 
+    font-family: 'Roboto', sans-serif;
+}
+
+#question {
+    font-weight : 700; 
+}
+
+#button2 {
+    width : 100px ; height : 40px ; 
+    background-color: #11E1B9;
+    border : none ; 
+    border-radius: 20px ;
+    transition: 0.5s background-color;
+    color : white ; 
+    padding : 0.4em ; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+#button2:hover {
+    background-color: red;
+}
+
+
+  
+
+
+
+/* for phones - responsive param */
+
+@media screen and (max-width: 920px) and (min-width: 480px) {
+    #section1-text {
+        width : 70%; 
+    }
+    #section1-text h1 {
+        font-size : 1.5em ; 
+    }
+    #section2-text h2 {
+        font-size : 1.3em ; 
+    }
+    #section1-text p, #section2-text p{
+        font-size : 0.9em ; 
+    }
+    #image2 {
+        width : 50%; 
+        margin-top: -6%;
+    }
+    #section2-text {
+        padding : 5% 5% 5% 40%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #section1-text {
+        width : 90%; 
+    }
+    #section1-text h1 {
+        font-size : 1.5em ; 
+    }
+    #section2-text h2 {
+        font-size : 1.3em ;
+        margin : 0 0 17% 50%;  
+    }
+    #section1-text p, #section2-text p{
+        font-size : 0.9em ; 
+    }
+    #image2 {
+        width : 60%; 
+        margin-top: -7%;
+    }
+    #section2-text {
+        padding : 5%; 
+    }
+
+}

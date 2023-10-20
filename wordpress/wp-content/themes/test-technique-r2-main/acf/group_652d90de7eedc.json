@@ -1,0 +1,131 @@
+{
+    "key": "group_652d90de7eedc",
+    "title": "paragraphe2",
+    "fields": [
+        {
+            "key": "field_652d90de19fdb",
+            "label": "Titre section2",
+            "name": "titre_section2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Et consecteur est. Morbi sodales congue orci.",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_652ed12c554b7",
+            "label": "Question",
+            "name": "question",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Nulla efficitur urna sed ligula vestibulums ?",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_652ed16b554b8",
+            "label": "Paragraphe section2",
+            "name": "paragraphe_section2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Phasellus ornare nunc vel elementum consequat. Quisque iaculis tempor lacus eu sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum euismod magna eu fermentum. Curabitur consequat, magna nec pharetra rhoncus, justo odio auctor magna, quis sagittis tortor nunc vitae urna. Ut quis mattis ex. Quisque consectetur odio sem, porttitor vehicula felis vulputate a. Proin sagittis venenatis gravida.",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_652ed19b554b9",
+            "label": "Bouton section2",
+            "name": "bouton_section2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Fusce",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_652ed33d3d288",
+            "label": "image section2",
+            "name": "image_section2",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "default_value": 36,
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1697822243
+}
